@@ -82,7 +82,7 @@ class AppData {
         this.database.forEach(function (item) {
             const li = document.createElement('li');
 
-            li.innerHTML = `Имя: ${item.name}, фамилия: ${item.surname}, зарегестрирован: ${item.registrationDate}`;
+            li.innerHTML = `Имя: ${item.name}, фамилия: ${item.surname}, зарегестрирован: ${item.date}`;
             list.appendChild(li);
         });
     }   
